@@ -8,16 +8,25 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <title>Techshop</title>
         <meta charset="UTF-8">
         <link href="css/Estilos.css" rel="stylesheet" type="text/css"/>
+        <link href="css/Menu.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <header>
-            <h1 style="text-align:center; background-color:black;color:white">Home</h1>
-            <h2>La página principal</h2>
-            <hr/>
-            <nav>
-                <a href="ejemplo7.html">&triangleleft;</a>
-                <a href="index.html">Techshop</a>
-                <a href="ejemplo2.html">&triangleright;</a>
+        <header class="header">
+            <nav class="nav">
+                <h1><a href="index.html" class="nav-link logo">Techshop</a></h1> 
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a href="ejemplo7.html" class="nav-link nav-menu-link">&triangleleft;</a></li>
+                    <li class="nav-menu-item"><a href="ejemplo2.html" class="nav-link nav-menu-link">&triangleright;</a></li>
+                    <li class="nav-menu-item"><a href="audios.html" class="nav-link nav-menu-link">Audios</a></li>
+                    <li class="nav-menu-item"><a href="videos.html" class="nav-link nav-menu-link">Videos</a></li>
+                    <li class="nav-menu-item"><a href="iframe.html" class="nav-link nav-menu-link">iframe</a></li>
+                    <li class="nav-menu-item"><a href="Formularios.html" class="nav-link nav-menu-link">Formularios</a></li>
+                    
+                </ul>
+
+                
+                
+                
                 
             </nav>
         </header>
@@ -56,8 +65,66 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                     <figcaption>Servidor de alto rendimiento  <a href="#">Comprar</a></figcaption>
                 </figure>
                 <br/>
-                <p>Servidor de alto rendimiento - Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae molestias obcaecati ut blanditiis, nemo doloribus nesciunt necessitatibus enim error fugiat aperiam, ducimus suscipit pariatur fuga neque. Reprehenderit laudantium alias velit. >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae molestias obcaecati ut blanditiis, nemo doloribus nesciunt necessitatibus enim error fugiat aperiam, ducimus suscipit pariatur fuga neque. Reprehenderit laudantium alias velit. >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae molestias obcaecati ut blanditiis, nemo doloribus nesciunt necessitatibus enim error fugiat aperiam, ducimus suscipit pariatur fuga neque. Reprehenderit laudantium alias velit. >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae molestias obcaecati ut blanditiis, nemo doloribus nesciunt necessitatibus enim error fugiat aperiam, ducimus suscipit pariatur fuga neque. Reprehenderit laudantium alias velit.</p>
+                <p class="aviso">Servidor de alto rendimiento - Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae molestias obcaecati ut blanditiis, nemo doloribus nesciunt necessitatibus enim error fugiat aperiam, ducimus suscipit pariatur fuga neque. Reprehenderit laudantium alias velit. >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae molestias obcaecati ut blanditiis, nemo doloribus nesciunt necessitatibus enim error fugiat aperiam, ducimus suscipit pariatur fuga neque. Reprehenderit laudantium alias velit. >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae molestias obcaecati ut blanditiis, nemo doloribus nesciunt necessitatibus enim error fugiat aperiam, ducimus suscipit pariatur fuga neque. Reprehenderit laudantium alias velit. >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae molestias obcaecati ut blanditiis, nemo doloribus nesciunt necessitatibus enim error fugiat aperiam, ducimus suscipit pariatur fuga neque. Reprehenderit laudantium alias velit.</p>
             </article>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Codigo</th>
+                            <th>Descripcion</th>
+                            <th>Precio</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>X2126</td>
+                            <td>Servidor de alto rendimiento</td>
+                            <td>1,000,000</td>
+                            <th Style="text-align: center;"><a href="/usuario/editar/1">Editar</a></th>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Lattitude</td>
+                            <td>Laptop</td>
+                            <td>500,000.000</td>
+                            <th Style="text-align: center;"><a href="/usuario/editar/2">Editar</a></th>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Pegasus</td>
+                            <td>Silla Gamer</td>
+                            <td>150,000.00</td>
+                            <th Style="text-align: center;"><a href="/usuario/editar/3">Editar</a></th>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>s3454</td>
+                            <td>Router</td>
+                            <td>200,000.00</td>
+                            <th Style="text-align: center;"><a href="/usuario/editar/4">Editar</a></th>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>T7686</td>
+                            <td>Enrutado</td>
+                            <td>100,000.00</td>
+                            <th Style="text-align: center;"><a href="/usuario/editar/5">Editar</a></th>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>r12</td>
+                            <td>Teclado Mecanico</td>
+                            <td>80,000.00</td>
+                            <th Style="text-align: center;"><a href="/usuario/editar/6">Editar</a></th>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
         </section>
         <footer>
             <p>Derechos reservados &copy;</p>

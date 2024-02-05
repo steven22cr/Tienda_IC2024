@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+--> 
+
+<html>
+    <head>
+        <title>Techshop</title>
+        <meta charset="UTF-8">
+        <link href="css/Estilos.css" rel="stylesheet" type="text/css"/>
+        <link href="css/Menu.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="nav">
+                <h1><a href="index.html" class="nav-link logo">Techshop</a></h1> 
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a href="ejemplo7.html" class="nav-link nav-menu-link">&triangleleft;</a></li>
+                    <li class="nav-menu-item"><a href="ejemplo2.html" class="nav-link nav-menu-link">&triangleright;</a></li>
+                    <li class="nav-menu-item"><a href="audios.html" class="nav-link nav-menu-link">Audios</a></li>
+                    <li class="nav-menu-item"><a href="videos.html" class="nav-link nav-menu-link">Videos</a></li>
+                    <li class="nav-menu-item"><a href="iframe.html" class="nav-link nav-menu-link">iframe</a></li>
+                    <li class="nav-menu-item"><a href="Formularios.html" class="nav-link nav-menu-link">Formularios</a></li>                   
+                </ul>            
+            </nav>
+        </header>
+        <aside>
+            <h2 class="noticia">Uso de registro</h2>
+            <p>Uso de etiqueta para registro</p>
+        </aside>
+        <section>
+            <article>
+                <h3>Registro de usuarios</h3>
+                
+                <form action="/usuario/registro">
+                    usuario:<input type="text" name="username" value="" size="15" required /><br/>
+                    contraseña:<input type="text" name="password" value="" size="10" /><br/>
+                    nombre:<input type="text" name="nombre" value="" size="35" /><br/>
+                    correo:<input type="email" name="usuario" placeholder="correo@correo.com" size="35" /><br/>
+                    edad<input type="number" name="edad" value="" min="18" max="100"/><br/>                   
+                    fecha activo:<input type="date" name="fecha" value=""/><br/>
+                    foto: <input type="file" name="foto" accept="image/*"/> 
+                    nivel_educativo:  <select name="nivel">
+                        <option value="0">Primaria incompleta</option>
+                        <option value="1">Primaria completa</option>
+                        <option value="2">Colegio aprovado</option>
+                    </select><br/>
+                    Zona: Dentro de la Gam <input type="radio" name="zona" value="1" />
+                    Zona: Fuera de la Gam <input type="radio" name="zona" value="2" />
+                    Declaro que esta informacion es veráz <input type="checkbox" value="Jura" required />
+                    <input type="submit" value="registro" name="btnregistro" />
+                </form>
+                
+                
+                 
+            </article>
+            
+            
+        </section>
+        <div>
+        </div>
+        <br>
+        <br>
+
+        <p>Última Línea</p>
+    </body>
+</html>
